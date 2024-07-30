@@ -1,0 +1,24 @@
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    margin-top: 80px;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    max-height: 73vh;
+}
+
+.charts-container > div {
+    flex: 1;
+    margin: 0 10px;
+
+}
+
+.pie{
+background-color: red;
+max-height: 44px;
+}
+canvas{
+    width: 111px;
+    height: 100px;
+}
